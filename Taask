@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Write your program after the comment
+Write a program that prints the alphabet in lowercase, followed by a new lin    e.
+Print all the letters except q and e
+use printf
+*/
+
+int main(void)
+{
+	int ch;
+	for (int ch = 97; ch <= 122; ch++)
+		if (ch != 'e') & (ch != 'q')
+			printf("%c\n", ch);
+	return (0);
+}
